@@ -1,3 +1,4 @@
+//Not done
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -26,10 +27,10 @@ int main()
 
             for (int i = 0; i < n; i++)
             {
-                if (str1[i] == 'B' || str2[i] == 'B')
+                if (str1[i] == 'G' || str2[i] == 'G')
                 {
-                    str1[i] = 'G';
-                    str2[i] = 'G';
+                    str1[i] = 'B';
+                    str2[i] = 'B';
                 }
             }
 
